@@ -24,7 +24,7 @@
 header{
     height: 100vh;
     background-color: black;
-   /* background-image: url(/media/FondoPrincipal.jpg);*/
+    background-image: url(/media/FondoPrincipal.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,11 +45,11 @@ header{
 }
 
  .logoo{
-    width: 150px;
+    width: 100px;
 }
 
 .nombre{
-    width: 200px;
+    width: 150px;
 }                                                                                                                                                                                                                                               
 
 header h1{
@@ -127,7 +127,7 @@ header h1{
 .somos{
     padding: 50px 20px; 
     background-color: black;
-    /*background-image: url(/media/Quienessomos.jpg);*/
+    background-image: url(/media/Quienessomos.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -146,6 +146,7 @@ header h1{
 .somos p{
     text-decoration: none;
     color: white; 
+    text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;
     /*text-align: 25.6px;*/
