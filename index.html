@@ -30,6 +30,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
 
 
@@ -45,7 +47,7 @@
 
     </div>
 
-    <header id="header">
+    <header id="header" style="background-image: url('media/FondoPrincipal.jpg')">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark ">
                 <a class="navbar-brand" href="#">
@@ -119,7 +121,7 @@
         </div>
     </div>
 
-    <div class="somos">
+    <div class="somos" style="background-image: url('media/Quienessomos.jpg')">
         <div class="container">
             <h2>Quienes Somos</h2>
             <p>Consultora del Valle nace a partir de la necesidad que tienen
@@ -159,27 +161,77 @@
 
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button class="btn btn-success" type="submit">Enviar</button>
+                    <button class="btn btn-success bnt-telefono" type="submit">Enviar</button>
                 </form>
 
+            </div>
+            <div class="mapa">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.3948113492684!2d-71.21228756477748!3d-33.67283975890261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDMzJzQ1LjUiUyA3McKwMTAnMDQuOSJX!5e0!3m2!1ses!2sus!4v1548356414533"
+                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 
             </div>
-<div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.3948113492684!2d-71.21228756477748!3d-33.67283975890261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDMzJzQ1LjUiUyA3McKwMTAnMDQuOSJX!5e0!3m2!1ses!2sus!4v1548356414533" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
         </div>
 
     </div>
 
-    <footer id="footer">
-        <img src="" alt="">
-        <p class="derechos_reservados">
-            Todos los derechos reservados.
-        </p>
-        <p class="correo">
-            asesoradelvalle@gmail.com
-        </p>
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>VISION</h6>
+                    <p class="text-justify">Consultoradelvalle.cl <i>Nuestra visíon en consultora del valle es </i> ser
+                        la consultora referente en temas de asesorías y capacitaciones integrales de gestión
+                        empresarial, trabajando siempre con excelencia, pasión y disciplina.
+                        .</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Servicios</h6>
+                    <ul class="footer-links">
+                        <li><a href="#Servicos">Asesoria técnica</a></li>
+                        <li><a href="#Servicos">Capacitaciones</a></li>
+                        <li><a href="#Servicos">Costos y Finanzas</a></li>
+                        <li><a href="#Servicos">KPI</a></li>
+                        <li><a href="#Servicos">Excel</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Enlaces</h6>
+                    <ul class="footer-links">
+                        <li><a href="#Servicos">Inicio</a></li>
+                        <li><a href="#Servicos">Servicio </a></li>
+                        <li><a href="#Servicos">Quienes somos</a></li>
+                        <li><a href="#Servicos">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2019 Todos los derechos reservados por
+                        <a href="#">Consultora del Valle</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
