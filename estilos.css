@@ -119,6 +119,12 @@ header h1{
     -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.50);
     box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.50);
 }
+
+.Servicio:hover{
+  transform:scale(1.1); 
+  transition: all 0.3s ease 0s;
+}
+
 .Servicio img{
     padding: 16px;
 }
